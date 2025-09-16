@@ -23,4 +23,4 @@ jobs:
       run: docker build -t seuusuario/aula-docker:latest .
 
     - name: Push Docker image
-      run: docker push seuusuario/aula-docker:latest
+      run: docker push rodriguesla/aula-docker:latest
